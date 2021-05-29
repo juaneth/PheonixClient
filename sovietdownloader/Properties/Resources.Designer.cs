@@ -61,11 +61,21 @@ namespace CommieClient.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon commieclient {
+            get {
+                object obj = ResourceManager.GetObject("commieclient", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ddsng7u_0fc8f5fa_af5f_4e7a_b4a4_9a1be6be5d29 {
+        internal static System.Drawing.Bitmap load {
             get {
-                object obj = ResourceManager.GetObject("ddsng7u-0fc8f5fa-af5f-4e7a-b4a4-9a1be6be5d29", resourceCulture);
+                object obj = ResourceManager.GetObject("load", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
