@@ -6,14 +6,22 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>546175d4fad1356a4fdcda4e7ac87dcaea46df2a_00.ico</ApplicationIcon>
     <StartupObject />
-    <PackageId>SovietDownloader</PackageId>
+    <PackageId>CommieClient</PackageId>
     <Version>0.0.1</Version>
     <Authors>Juaneth</Authors>
-    <Product>SovietDownloader</Product>
+    <Product>CommieClient</Product>
     <Copyright>Juaneth</Copyright>
     <Company>Juaneth</Company>
     <Description>A tool to bulk download very large files of a repository, all content is not hosted by me</Description>
     <SignAssembly>false</SignAssembly>
+    <AssemblyName>CommieClient</AssemblyName>
+    <RootNamespace>CommieClient</RootNamespace>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Optimize>true</Optimize>
   </PropertyGroup>
 
   <ItemGroup>

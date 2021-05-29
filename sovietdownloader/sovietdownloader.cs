@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace sovietdownloader
 {
-    public partial class sovietdownloaderpage : Form
+    public partial class CommieClientHome : Form
     {
-        public sovietdownloaderpage()
+        public CommieClientHome()
         {
             InitializeComponent();
         }

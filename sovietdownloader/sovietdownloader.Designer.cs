@@ -1,7 +1,7 @@
 ﻿
 namespace sovietdownloader
 {
-    partial class sovietdownloaderpage
+    partial class CommieClientHome
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,21 +29,21 @@ namespace sovietdownloader
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(sovietdownloaderpage));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CommieClientHome));
             this.SuspendLayout();
             // 
-            // sovietdownloaderpage
+            // CommieClientHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::sovietdownloader.Properties.Resources.ddsng7u_0fc8f5fa_af5f_4e7a_b4a4_9a1be6be5d29;
+            this.BackgroundImage = global::CommieClient.Properties.Resources.ddsng7u_0fc8f5fa_af5f_4e7a_b4a4_9a1be6be5d29;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1022, 586);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "sovietdownloaderpage";
+            this.Name = "CommieClientHome";
             this.ShowIcon = false;
-            this.Text = "SovietDownloader";
+            this.Text = "CommieClient";
             this.Load += new System.EventHandler(this.sovietdownloaderpage_Load);
             this.ResumeLayout(false);
 
