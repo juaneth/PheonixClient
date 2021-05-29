@@ -72,6 +72,7 @@ namespace CommieClient
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CommieClient";
+            this.Load += new System.EventHandler(this.CommieClientHome_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
