@@ -44,7 +44,6 @@ namespace sovietdownloader
             this.Name = "CommieClientHome";
             this.ShowIcon = false;
             this.Text = "CommieClient";
-            this.Load += new System.EventHandler(this.sovietdownloaderpage_Load);
             this.ResumeLayout(false);
 
         }
