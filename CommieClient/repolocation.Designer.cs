@@ -1,7 +1,7 @@
 ﻿
 namespace CommieClient
 {
-    partial class CommieClientHome
+    partial class repolocation
     {
         /// <summary>
         ///  Required designer variable.
@@ -37,7 +37,7 @@ namespace CommieClient
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(106, 19);
+            this.label1.Location = new System.Drawing.Point(107, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 15);
             this.label1.TabIndex = 0;
@@ -46,7 +46,7 @@ namespace CommieClient
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(59, 34);
+            this.label2.Location = new System.Drawing.Point(60, 34);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(160, 15);
             this.label2.TabIndex = 1;

@@ -5,9 +5,9 @@ using System.Windows.Forms;
 
 namespace CommieClient
 {
-    public partial class CommieClientHome : Form
+    public partial class repolocation : Form
     {
-        public CommieClientHome()
+        public repolocation()
         {
             InitializeComponent();
         }
@@ -16,7 +16,13 @@ namespace CommieClient
         {
             if (File.Exists("cfg.comclient"))
             {
-                string cfg = File.ReadLines("cfg.comclient").Skip(0).Take(1).First();
+                string firsttime = File.ReadLines("cfg.comclient").Skip(0).Take(1).First();
+
+                if (firsttime == "FirstTime= 1")
+                {
+                    this.Hide();
+
+                }
             }
             else
             {
