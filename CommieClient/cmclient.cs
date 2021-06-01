@@ -16,5 +16,10 @@ namespace CommieClient
         {
             InitializeComponent();
         }
+
+        private void cmclient_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

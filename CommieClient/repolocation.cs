@@ -40,5 +40,12 @@ namespace CommieClient
                 this.Close();
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TextWriter txt = new StreamWriter("savedrepo.comclient");
+            txt.Write(textBox1.Text);
+            txt.Close();
+        }
     }
 }
