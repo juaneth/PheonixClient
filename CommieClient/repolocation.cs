@@ -12,8 +12,11 @@ namespace CommieClient
             InitializeComponent();
         }
 
+        private string appPath = Application.StartupPath;
         private void CommieClientHome_Load(object sender, EventArgs e)
         {
+            
+
             //check if config file exists
             if (File.Exists("cfg.comclient"))
             {
@@ -43,9 +46,18 @@ namespace CommieClient
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TextWriter txt = new StreamWriter("savedrepo.comclient");
-            txt.Write(textBox1.Text);
-            txt.Close();
+            if (textBox1.Text.Length > 2)
+            {
+                TextWriter txt = new StreamWriter("savedrepo.comclient");
+                txt.Write(textBox1.Text);
+                txt.Close();
+            }
+            else
+            {
+                TextWriter txt = new StreamWriter("savedrepo.comclient");
+                txt.Write(appPath);
+                txt.Close();
+            }
         }
     }
 }
