@@ -24,7 +24,7 @@ namespace CommieClient
             //show where its downloading from for debugging
             MessageBox.Show(dl);
             //get filename from repo file too
-            string filenamefromrepo = File.ReadLines(repolocation).Skip(4).Take(1).First();
+            string filenamefromrepo = ("downloads/" + File.ReadLines(repolocation).Skip(4).Take(1).First());
             //download file from repo
             using (WebClient downloadclient = new WebClient())
             {

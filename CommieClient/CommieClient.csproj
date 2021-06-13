@@ -4,10 +4,26 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>disable</Nullable>
+    <Version>0.0.1</Version>
+    <Authors>Juan</Authors>
+    <Description />
+    <PackageIcon>commieclient.ico</PackageIcon>
+    <PackageIconUrl />
+    <ApplicationIcon>D:\backup\VS Projects\CommieClient\CommieClient\sovietdownloader\Resources\commieclient.ico</ApplicationIcon>
+    <StartupObject />
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <Optimize>false</Optimize>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\sovietdownloader\Resources\commieclient.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
