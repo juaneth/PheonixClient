@@ -40,7 +40,7 @@ namespace CommieClient
             //Load UI
             string itemname = File.ReadLines(repolocation).Skip(0).Take(1).First();
             label1.Text = itemname;
-            string itemid = File.ReadLines(repolocation).Skip(3).Take(1).First();
+            string itemid = "Item ID: " + File.ReadLines(repolocation).Skip(3).Take(1).First();
             label2.Text = itemid;
         }
     }
