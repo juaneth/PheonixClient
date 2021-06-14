@@ -30,6 +30,7 @@ namespace CommieClient
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -75,7 +76,6 @@ namespace CommieClient
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -113,10 +113,17 @@ namespace CommieClient
             this.panel1.Controls.Add(this.panel9);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(111, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(861, 653);
+            this.panel1.Size = new System.Drawing.Size(861, 694);
             this.panel1.TabIndex = 0;
+            // 
+            // panel11
+            // 
+            this.panel11.Location = new System.Drawing.Point(334, 601);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(200, 100);
+            this.panel11.TabIndex = 14;
             // 
             // button12
             // 
@@ -634,24 +641,18 @@ namespace CommieClient
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.panel10.Location = new System.Drawing.Point(12, 12);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(861, 653);
+            this.panel10.Size = new System.Drawing.Size(1058, 694);
             this.panel10.TabIndex = 1;
-            // 
-            // panel11
-            // 
-            this.panel11.Location = new System.Drawing.Point(334, 601);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(200, 100);
-            this.panel11.TabIndex = 14;
             // 
             // cmclient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.ClientSize = new System.Drawing.Size(885, 677);
+            this.ClientSize = new System.Drawing.Size(1082, 718);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel10);
+            this.MinimumSize = new System.Drawing.Size(901, 716);
             this.Name = "cmclient";
             this.Text = "CommieClient";
             this.Load += new System.EventHandler(this.cmclient_Load);
