@@ -672,7 +672,7 @@ namespace CommieClient
 			this.panel2.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
-            
+
             this.panel1 = new System.Windows.Forms.Panel();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
@@ -1317,9 +1317,8 @@ namespace CommieClient
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-        }
 
-        #endregion
+        }
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
@@ -1367,5 +1366,7 @@ namespace CommieClient
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
+
+        #endregion
     }
 }
