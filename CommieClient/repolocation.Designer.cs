@@ -95,14 +95,18 @@ namespace CommieClient
 			// 
 			// button_woc1
 			// 
+			this.button_woc1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
 			this.button_woc1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
 			this.button_woc1.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+			this.button_woc1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
 			this.button_woc1.FlatAppearance.BorderSize = 0;
+			this.button_woc1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+			this.button_woc1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
 			this.button_woc1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button_woc1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button_woc1.Location = new System.Drawing.Point(165, 194);
 			this.button_woc1.Name = "button_woc1";
-			this.button_woc1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+			this.button_woc1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
 			this.button_woc1.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
 			this.button_woc1.OnHoverTextColor = System.Drawing.Color.White;
 			this.button_woc1.Size = new System.Drawing.Size(175, 61);
