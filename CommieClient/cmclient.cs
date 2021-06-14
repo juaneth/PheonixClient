@@ -40,27 +40,27 @@ namespace CommieClient
             //Load UI
             //First Panel's shite
             string itemname = File.ReadLines(repolocation).Skip(0).Take(1).First();
-            label1.Text = itemname;
+            name1.Text = itemname;
             string itemid = "Item ID: " + File.ReadLines(repolocation).Skip(3).Take(1).First();
-            label2.Text = itemid;
+            idtext1.Text = itemid;
 
             //Second Panel's shite
             string itemname2 = File.ReadLines(repolocation).Skip(7).Take(1).First();
-            label3.Text = itemname2;
+            name2.Text = itemname2;
             string itemid2 = "Item ID: " + File.ReadLines(repolocation).Skip(10).Take(1).First();
-            label4.Text = itemid2;
+            idtext2.Text = itemid2;
 
             //Third Panel's shite
             string itemname3 = File.ReadLines(repolocation).Skip(14).Take(1).First();
-            label5.Text = itemname3;
+            name3.Text = itemname3;
             string itemid3 = "Item ID: " + File.ReadLines(repolocation).Skip(17).Take(1).First();
-            label6.Text = itemid3;
+            idtext3.Text = itemid3;
 
             //Fourth Panel's shite
             string itemname4 = File.ReadLines(repolocation).Skip(14).Take(1).First();
-            label7.Text = itemname4;
+            name4.Text = itemname4;
             string itemid4 = "Item ID: " + File.ReadLines(repolocation).Skip(17).Take(1).First();
-            label8.Text = itemid4;
+            idtext4.Text = itemid4;
         }
 	}
 }
