@@ -7,4 +7,4 @@ Download the repository by clicking [here](https://github.com/juaneth/CommieClie
 
 To access the built application, go to wherever you have the downloaded project and go to 'CommieClient/bin/debug/net5.0-windows/'
 
-To make this functional and not break upon launch you should make a couple files, one called 'cfg.comclient' and one called 'savedrepo.comclient' then open 'cfg.comclient' with notepad or any text editor, then put 'FirstTime= 0' inside the file and then you should be good to go! Open up CommieClient.exe and it should work like normal
+To make this functional and not break upon launch you should download the 'test release' [here](https://github.com/juaneth/CommieClient/releases/download/0.0.0/comclient-x64.zip) and then replace the files inside there with the ones you have made
