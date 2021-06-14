@@ -30,6 +30,8 @@ namespace CommieClient
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -73,8 +75,6 @@ namespace CommieClient
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -115,6 +115,32 @@ namespace CommieClient
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(861, 608);
             this.panel1.TabIndex = 0;
+            // 
+            // button12
+            // 
+            this.button12.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.Location = new System.Drawing.Point(646, 17);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(204, 60);
+            this.button12.TabIndex = 13;
+            this.button12.Text = "Settings";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Location = new System.Drawing.Point(436, 17);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(204, 60);
+            this.button11.TabIndex = 12;
+            this.button11.Text = "Downloads";
+            this.button11.UseVisualStyleBackColor = true;
             // 
             // button10
             // 
@@ -173,18 +199,19 @@ namespace CommieClient
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(14, 175);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 15);
+            this.label9.Size = new System.Drawing.Size(68, 15);
             this.label9.TabIndex = 2;
-            this.label9.Text = "benis";
+            this.label9.Text = "TempName";
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Image = global::CommieClient.Properties.Resources.ezgif_6_e7c0125a209c;
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox5.Location = new System.Drawing.Point(14, 34);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(175, 134);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
             // 
@@ -194,9 +221,9 @@ namespace CommieClient
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(14, 11);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(35, 15);
+            this.label10.Size = new System.Drawing.Size(68, 15);
             this.label10.TabIndex = 0;
-            this.label10.Text = "benis";
+            this.label10.Text = "TempName";
             // 
             // panel7
             // 
@@ -229,18 +256,19 @@ namespace CommieClient
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(14, 175);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(35, 15);
+            this.label11.Size = new System.Drawing.Size(68, 15);
             this.label11.TabIndex = 2;
-            this.label11.Text = "benis";
+            this.label11.Text = "TempName";
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Image = global::CommieClient.Properties.Resources.ezgif_6_e7c0125a209c;
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox6.Location = new System.Drawing.Point(14, 34);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(175, 134);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 1;
             this.pictureBox6.TabStop = false;
             // 
@@ -250,9 +278,9 @@ namespace CommieClient
             this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(14, 11);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(35, 15);
+            this.label12.Size = new System.Drawing.Size(68, 15);
             this.label12.TabIndex = 0;
-            this.label12.Text = "benis";
+            this.label12.Text = "TempName";
             // 
             // panel5
             // 
@@ -285,18 +313,19 @@ namespace CommieClient
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(14, 175);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 15);
+            this.label8.Size = new System.Drawing.Size(68, 15);
             this.label8.TabIndex = 2;
-            this.label8.Text = "benis";
+            this.label8.Text = "TempName";
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Image = global::CommieClient.Properties.Resources.ezgif_6_e7c0125a209c;
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox4.Location = new System.Drawing.Point(14, 34);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(175, 134);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 1;
             this.pictureBox4.TabStop = false;
             // 
@@ -306,9 +335,9 @@ namespace CommieClient
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(14, 11);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 15);
+            this.label7.Size = new System.Drawing.Size(68, 15);
             this.label7.TabIndex = 0;
-            this.label7.Text = "benis";
+            this.label7.Text = "TempName";
             // 
             // panel8
             // 
@@ -341,18 +370,19 @@ namespace CommieClient
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(14, 175);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(35, 15);
+            this.label13.Size = new System.Drawing.Size(68, 15);
             this.label13.TabIndex = 2;
-            this.label13.Text = "benis";
+            this.label13.Text = "TempName";
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Image = global::CommieClient.Properties.Resources.ezgif_6_e7c0125a209c;
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox7.Location = new System.Drawing.Point(14, 34);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(175, 134);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 1;
             this.pictureBox7.TabStop = false;
             // 
@@ -362,9 +392,9 @@ namespace CommieClient
             this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(14, 11);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(35, 15);
+            this.label14.Size = new System.Drawing.Size(68, 15);
             this.label14.TabIndex = 0;
-            this.label14.Text = "benis";
+            this.label14.Text = "TempName";
             // 
             // panel4
             // 
@@ -397,18 +427,19 @@ namespace CommieClient
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(14, 175);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 15);
+            this.label6.Size = new System.Drawing.Size(68, 15);
             this.label6.TabIndex = 2;
-            this.label6.Text = "benis";
+            this.label6.Text = "TempName";
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Image = global::CommieClient.Properties.Resources.ezgif_6_e7c0125a209c;
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox3.Location = new System.Drawing.Point(14, 34);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(175, 134);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
             // 
@@ -418,9 +449,9 @@ namespace CommieClient
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(14, 11);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 15);
+            this.label5.Size = new System.Drawing.Size(68, 15);
             this.label5.TabIndex = 0;
-            this.label5.Text = "benis";
+            this.label5.Text = "TempName";
             // 
             // panel9
             // 
@@ -453,18 +484,19 @@ namespace CommieClient
             this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.Location = new System.Drawing.Point(14, 175);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(35, 15);
+            this.label15.Size = new System.Drawing.Size(68, 15);
             this.label15.TabIndex = 2;
-            this.label15.Text = "benis";
+            this.label15.Text = "TempName";
             // 
             // pictureBox8
             // 
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Image = global::CommieClient.Properties.Resources.ezgif_6_e7c0125a209c;
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox8.Location = new System.Drawing.Point(14, 34);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(175, 134);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 1;
             this.pictureBox8.TabStop = false;
             // 
@@ -474,9 +506,9 @@ namespace CommieClient
             this.label16.ForeColor = System.Drawing.Color.White;
             this.label16.Location = new System.Drawing.Point(14, 11);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(35, 15);
+            this.label16.Size = new System.Drawing.Size(68, 15);
             this.label16.TabIndex = 0;
-            this.label16.Text = "benis";
+            this.label16.Text = "TempName";
             // 
             // panel3
             // 
@@ -509,18 +541,19 @@ namespace CommieClient
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(14, 175);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 15);
+            this.label4.Size = new System.Drawing.Size(68, 15);
             this.label4.TabIndex = 2;
-            this.label4.Text = "benis";
+            this.label4.Text = "TempName";
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Image = global::CommieClient.Properties.Resources.ezgif_6_e7c0125a209c;
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.Location = new System.Drawing.Point(14, 34);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(175, 134);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
@@ -530,9 +563,9 @@ namespace CommieClient
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(14, 11);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 15);
+            this.label3.Size = new System.Drawing.Size(68, 15);
             this.label3.TabIndex = 0;
-            this.label3.Text = "benis";
+            this.label3.Text = "TempName";
             // 
             // panel2
             // 
@@ -571,12 +604,13 @@ namespace CommieClient
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = global::CommieClient.Properties.Resources.ezgif_6_e7c0125a209c;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(14, 34);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(175, 134);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -600,32 +634,6 @@ namespace CommieClient
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(861, 608);
             this.panel10.TabIndex = 1;
-            // 
-            // button11
-            // 
-            this.button11.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(436, 17);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(204, 60);
-            this.button11.TabIndex = 12;
-            this.button11.Text = "Downloads";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(646, 17);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(204, 60);
-            this.button12.TabIndex = 13;
-            this.button12.Text = "Settings";
-            this.button12.UseVisualStyleBackColor = true;
             // 
             // cmclient
             // 
