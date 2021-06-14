@@ -30,7 +30,6 @@ namespace CommieClient
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -100,7 +99,6 @@ namespace CommieClient
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.panel11);
             this.panel1.Controls.Add(this.button12);
             this.panel1.Controls.Add(this.button11);
             this.panel1.Controls.Add(this.button10);
@@ -117,13 +115,6 @@ namespace CommieClient
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(861, 694);
             this.panel1.TabIndex = 0;
-            // 
-            // panel11
-            // 
-            this.panel11.Location = new System.Drawing.Point(334, 601);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(200, 100);
-            this.panel11.TabIndex = 14;
             // 
             // button12
             // 
@@ -733,6 +724,5 @@ namespace CommieClient
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Panel panel11;
     }
 }
