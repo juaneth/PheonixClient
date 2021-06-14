@@ -6,3 +6,5 @@ plus idk about speed for downloading things so we'll have to see!
 The store is a bit tricky for the UI but the main idea is pretty simple, i just need to count how many games there are in the repo and divide it by maybe 10 to get the page numbers, then go through and add a thumbnail for it with a title, simple picturebox and label. wont be pretty for a while
 
 I also could add some like how much money has been saved by pirating, like grab the price of all the games and then add them all up
+
+cum
