@@ -56,6 +56,11 @@ namespace CommieClient
             string itemid3 = "Item ID: " + File.ReadLines(repolocation).Skip(17).Take(1).First();
             label6.Text = itemid3;
 
+            //Fourth Panel's shite
+            string itemname4 = File.ReadLines(repolocation).Skip(14).Take(1).First();
+            label7.Text = itemname4;
+            string itemid4 = "Item ID: " + File.ReadLines(repolocation).Skip(17).Take(1).First();
+            label8.Text = itemid4;
         }
 	}
 }
