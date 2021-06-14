@@ -77,5 +77,44 @@ namespace CommieClient
                 this.Close();
             }
         }
+
+		private void button_woc1_Click(object sender, EventArgs e)
+		{
+            if (textBox1.Text.Length > 2)
+            {
+                TextWriter txt = new StreamWriter("savedrepo.comclient");
+                txt.Write(textBox1.Text);
+                txt.Close();
+
+                TextWriter s = new StreamWriter("cfg.comclient");
+                s.Write("FirstTime= 1");
+                s.Close();
+
+                this.Hide();
+                cmclient f2 = new cmclient();
+                f2.ShowDialog();
+                this.Close();
+            }
+            else
+            {
+                TextWriter txt = new StreamWriter("savedrepo.comclient");
+                txt.Write(appPath + "testgame1.comclient");
+                txt.Close();
+
+                TextWriter s = new StreamWriter("cfg.comclient");
+                s.Write("FirstTime= 1");
+                s.Close();
+
+                this.Hide();
+                cmclient f2 = new cmclient();
+                f2.ShowDialog();
+                this.Close();
+            }
+        }
+
+		private void panel1_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
 	}
 }
