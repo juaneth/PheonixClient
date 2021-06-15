@@ -35,42 +35,42 @@ namespace CommieClient
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
+            this.installbtn8 = new ePOSOne.btnProduct.Button_WOC();
             this.idtext8 = new System.Windows.Forms.Label();
             this.cover8 = new System.Windows.Forms.PictureBox();
             this.name8 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
+            this.installbtn7 = new ePOSOne.btnProduct.Button_WOC();
             this.idtext7 = new System.Windows.Forms.Label();
             this.cover7 = new System.Windows.Forms.PictureBox();
             this.name7 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.installbtn4 = new ePOSOne.btnProduct.Button_WOC();
             this.idtext4 = new System.Windows.Forms.Label();
             this.cover4 = new System.Windows.Forms.PictureBox();
             this.name4 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
+            this.installbtn6 = new ePOSOne.btnProduct.Button_WOC();
             this.idtext6 = new System.Windows.Forms.Label();
             this.cover6 = new System.Windows.Forms.PictureBox();
             this.name6 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
+            this.installbtn3 = new ePOSOne.btnProduct.Button_WOC();
             this.idtext3 = new System.Windows.Forms.Label();
             this.cover3 = new System.Windows.Forms.PictureBox();
             this.name3 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
+            this.installbtn5 = new ePOSOne.btnProduct.Button_WOC();
             this.idtext5 = new System.Windows.Forms.Label();
             this.cover5 = new System.Windows.Forms.PictureBox();
             this.name5 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.installbtn2 = new ePOSOne.btnProduct.Button_WOC();
             this.idtext2 = new System.Windows.Forms.Label();
             this.cover2 = new System.Windows.Forms.PictureBox();
             this.name2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.installbtn1 = new ePOSOne.btnProduct.Button_WOC();
             this.idtext1 = new System.Windows.Forms.Label();
             this.cover1 = new System.Windows.Forms.PictureBox();
             this.name1 = new System.Windows.Forms.Label();
@@ -172,7 +172,7 @@ namespace CommieClient
             // 
             this.panel6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
-            this.panel6.Controls.Add(this.button5);
+            this.panel6.Controls.Add(this.installbtn8);
             this.panel6.Controls.Add(this.idtext8);
             this.panel6.Controls.Add(this.cover8);
             this.panel6.Controls.Add(this.name8);
@@ -181,17 +181,27 @@ namespace CommieClient
             this.panel6.Size = new System.Drawing.Size(204, 241);
             this.panel6.TabIndex = 10;
             // 
-            // button5
+            // installbtn8
             // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(14, 194);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(175, 34);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "Install";
-            this.button5.UseVisualStyleBackColor = true;
+            this.installbtn8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn8.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn8.FlatAppearance.BorderSize = 0;
+            this.installbtn8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.installbtn8.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.installbtn8.Location = new System.Drawing.Point(14, 193);
+            this.installbtn8.Name = "installbtn8";
+            this.installbtn8.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn8.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn8.OnHoverTextColor = System.Drawing.Color.White;
+            this.installbtn8.Size = new System.Drawing.Size(175, 46);
+            this.installbtn8.TabIndex = 10;
+            this.installbtn8.Text = "Install";
+            this.installbtn8.TextColor = System.Drawing.Color.White;
+            this.installbtn8.UseVisualStyleBackColor = true;
             // 
             // idtext8
             // 
@@ -229,7 +239,7 @@ namespace CommieClient
             // 
             this.panel7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
-            this.panel7.Controls.Add(this.button6);
+            this.panel7.Controls.Add(this.installbtn7);
             this.panel7.Controls.Add(this.idtext7);
             this.panel7.Controls.Add(this.cover7);
             this.panel7.Controls.Add(this.name7);
@@ -238,17 +248,27 @@ namespace CommieClient
             this.panel7.Size = new System.Drawing.Size(204, 241);
             this.panel7.TabIndex = 9;
             // 
-            // button6
+            // installbtn7
             // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(14, 194);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(175, 34);
-            this.button6.TabIndex = 3;
-            this.button6.Text = "Install";
-            this.button6.UseVisualStyleBackColor = true;
+            this.installbtn7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn7.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn7.FlatAppearance.BorderSize = 0;
+            this.installbtn7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.installbtn7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.installbtn7.Location = new System.Drawing.Point(14, 193);
+            this.installbtn7.Name = "installbtn7";
+            this.installbtn7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn7.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn7.OnHoverTextColor = System.Drawing.Color.White;
+            this.installbtn7.Size = new System.Drawing.Size(175, 46);
+            this.installbtn7.TabIndex = 10;
+            this.installbtn7.Text = "Install";
+            this.installbtn7.TextColor = System.Drawing.Color.White;
+            this.installbtn7.UseVisualStyleBackColor = true;
             // 
             // idtext7
             // 
@@ -286,7 +306,7 @@ namespace CommieClient
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
-            this.panel5.Controls.Add(this.button4);
+            this.panel5.Controls.Add(this.installbtn4);
             this.panel5.Controls.Add(this.idtext4);
             this.panel5.Controls.Add(this.cover4);
             this.panel5.Controls.Add(this.name4);
@@ -295,17 +315,27 @@ namespace CommieClient
             this.panel5.Size = new System.Drawing.Size(204, 241);
             this.panel5.TabIndex = 6;
             // 
-            // button4
+            // installbtn4
             // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(14, 194);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(175, 34);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Install";
-            this.button4.UseVisualStyleBackColor = true;
+            this.installbtn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn4.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn4.FlatAppearance.BorderSize = 0;
+            this.installbtn4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.installbtn4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.installbtn4.Location = new System.Drawing.Point(14, 192);
+            this.installbtn4.Name = "installbtn4";
+            this.installbtn4.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn4.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn4.OnHoverTextColor = System.Drawing.Color.White;
+            this.installbtn4.Size = new System.Drawing.Size(175, 46);
+            this.installbtn4.TabIndex = 9;
+            this.installbtn4.Text = "Install";
+            this.installbtn4.TextColor = System.Drawing.Color.White;
+            this.installbtn4.UseVisualStyleBackColor = true;
             // 
             // idtext4
             // 
@@ -343,7 +373,7 @@ namespace CommieClient
             // 
             this.panel8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
-            this.panel8.Controls.Add(this.button7);
+            this.panel8.Controls.Add(this.installbtn6);
             this.panel8.Controls.Add(this.idtext6);
             this.panel8.Controls.Add(this.cover6);
             this.panel8.Controls.Add(this.name6);
@@ -352,17 +382,27 @@ namespace CommieClient
             this.panel8.Size = new System.Drawing.Size(204, 241);
             this.panel8.TabIndex = 8;
             // 
-            // button7
+            // installbtn6
             // 
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(14, 194);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(175, 34);
-            this.button7.TabIndex = 3;
-            this.button7.Text = "Install";
-            this.button7.UseVisualStyleBackColor = true;
+            this.installbtn6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn6.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn6.FlatAppearance.BorderSize = 0;
+            this.installbtn6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.installbtn6.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.installbtn6.Location = new System.Drawing.Point(14, 193);
+            this.installbtn6.Name = "installbtn6";
+            this.installbtn6.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn6.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn6.OnHoverTextColor = System.Drawing.Color.White;
+            this.installbtn6.Size = new System.Drawing.Size(175, 46);
+            this.installbtn6.TabIndex = 10;
+            this.installbtn6.Text = "Install";
+            this.installbtn6.TextColor = System.Drawing.Color.White;
+            this.installbtn6.UseVisualStyleBackColor = true;
             // 
             // idtext6
             // 
@@ -400,7 +440,7 @@ namespace CommieClient
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
-            this.panel4.Controls.Add(this.button3);
+            this.panel4.Controls.Add(this.installbtn3);
             this.panel4.Controls.Add(this.idtext3);
             this.panel4.Controls.Add(this.cover3);
             this.panel4.Controls.Add(this.name3);
@@ -409,17 +449,27 @@ namespace CommieClient
             this.panel4.Size = new System.Drawing.Size(204, 241);
             this.panel4.TabIndex = 5;
             // 
-            // button3
+            // installbtn3
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(14, 194);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(175, 34);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Install";
-            this.button3.UseVisualStyleBackColor = true;
+            this.installbtn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn3.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn3.FlatAppearance.BorderSize = 0;
+            this.installbtn3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.installbtn3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.installbtn3.Location = new System.Drawing.Point(14, 192);
+            this.installbtn3.Name = "installbtn3";
+            this.installbtn3.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn3.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn3.OnHoverTextColor = System.Drawing.Color.White;
+            this.installbtn3.Size = new System.Drawing.Size(175, 46);
+            this.installbtn3.TabIndex = 8;
+            this.installbtn3.Text = "Install";
+            this.installbtn3.TextColor = System.Drawing.Color.White;
+            this.installbtn3.UseVisualStyleBackColor = true;
             // 
             // idtext3
             // 
@@ -457,7 +507,7 @@ namespace CommieClient
             // 
             this.panel9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
-            this.panel9.Controls.Add(this.button8);
+            this.panel9.Controls.Add(this.installbtn5);
             this.panel9.Controls.Add(this.idtext5);
             this.panel9.Controls.Add(this.cover5);
             this.panel9.Controls.Add(this.name5);
@@ -466,17 +516,27 @@ namespace CommieClient
             this.panel9.Size = new System.Drawing.Size(204, 241);
             this.panel9.TabIndex = 7;
             // 
-            // button8
+            // installbtn5
             // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(14, 194);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(175, 34);
-            this.button8.TabIndex = 3;
-            this.button8.Text = "Install";
-            this.button8.UseVisualStyleBackColor = true;
+            this.installbtn5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn5.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn5.FlatAppearance.BorderSize = 0;
+            this.installbtn5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.installbtn5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.installbtn5.Location = new System.Drawing.Point(14, 193);
+            this.installbtn5.Name = "installbtn5";
+            this.installbtn5.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn5.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn5.OnHoverTextColor = System.Drawing.Color.White;
+            this.installbtn5.Size = new System.Drawing.Size(175, 46);
+            this.installbtn5.TabIndex = 10;
+            this.installbtn5.Text = "Install";
+            this.installbtn5.TextColor = System.Drawing.Color.White;
+            this.installbtn5.UseVisualStyleBackColor = true;
             // 
             // idtext5
             // 
@@ -514,7 +574,7 @@ namespace CommieClient
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
-            this.panel3.Controls.Add(this.button2);
+            this.panel3.Controls.Add(this.installbtn2);
             this.panel3.Controls.Add(this.idtext2);
             this.panel3.Controls.Add(this.cover2);
             this.panel3.Controls.Add(this.name2);
@@ -523,17 +583,27 @@ namespace CommieClient
             this.panel3.Size = new System.Drawing.Size(204, 241);
             this.panel3.TabIndex = 4;
             // 
-            // button2
+            // installbtn2
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(14, 194);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(175, 34);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Install";
-            this.button2.UseVisualStyleBackColor = true;
+            this.installbtn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn2.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn2.FlatAppearance.BorderSize = 0;
+            this.installbtn2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.installbtn2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.installbtn2.Location = new System.Drawing.Point(14, 192);
+            this.installbtn2.Name = "installbtn2";
+            this.installbtn2.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn2.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn2.OnHoverTextColor = System.Drawing.Color.White;
+            this.installbtn2.Size = new System.Drawing.Size(175, 46);
+            this.installbtn2.TabIndex = 7;
+            this.installbtn2.Text = "Install";
+            this.installbtn2.TextColor = System.Drawing.Color.White;
+            this.installbtn2.UseVisualStyleBackColor = true;
             // 
             // idtext2
             // 
@@ -571,7 +641,7 @@ namespace CommieClient
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.installbtn1);
             this.panel2.Controls.Add(this.idtext1);
             this.panel2.Controls.Add(this.cover1);
             this.panel2.Controls.Add(this.name1);
@@ -580,17 +650,27 @@ namespace CommieClient
             this.panel2.Size = new System.Drawing.Size(204, 241);
             this.panel2.TabIndex = 0;
             // 
-            // button1
+            // installbtn1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(14, 194);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 34);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Install";
-            this.button1.UseVisualStyleBackColor = true;
+            this.installbtn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn1.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn1.FlatAppearance.BorderSize = 0;
+            this.installbtn1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.installbtn1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.installbtn1.Location = new System.Drawing.Point(14, 192);
+            this.installbtn1.Name = "installbtn1";
+            this.installbtn1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(99)))), ((int)(((byte)(129)))));
+            this.installbtn1.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(49)))), ((int)(((byte)(74)))));
+            this.installbtn1.OnHoverTextColor = System.Drawing.Color.White;
+            this.installbtn1.Size = new System.Drawing.Size(175, 46);
+            this.installbtn1.TabIndex = 6;
+            this.installbtn1.Text = "Install";
+            this.installbtn1.TextColor = System.Drawing.Color.White;
+            this.installbtn1.UseVisualStyleBackColor = true;
             // 
             // idtext1
             // 
@@ -680,39 +760,31 @@ namespace CommieClient
         private System.Windows.Forms.PictureBox cover1;
         private System.Windows.Forms.Label name1;
         private System.Windows.Forms.Label idtext1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label idtext8;
         private System.Windows.Forms.PictureBox cover8;
         private System.Windows.Forms.Label name8;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label idtext7;
         private System.Windows.Forms.PictureBox cover7;
         private System.Windows.Forms.Label name7;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label idtext4;
         private System.Windows.Forms.PictureBox cover4;
         private System.Windows.Forms.Label name4;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label idtext6;
         private System.Windows.Forms.PictureBox cover6;
         private System.Windows.Forms.Label name6;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label idtext3;
         private System.Windows.Forms.PictureBox cover3;
         private System.Windows.Forms.Label name3;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label idtext5;
         private System.Windows.Forms.PictureBox cover5;
         private System.Windows.Forms.Label name5;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label idtext2;
         private System.Windows.Forms.PictureBox cover2;
         private System.Windows.Forms.Label name2;
@@ -723,5 +795,14 @@ namespace CommieClient
         private System.Windows.Forms.Button button12;
 
         #endregion
+
+        private ePOSOne.btnProduct.Button_WOC installbtn8;
+        private ePOSOne.btnProduct.Button_WOC installbtn7;
+        private ePOSOne.btnProduct.Button_WOC installbtn4;
+        private ePOSOne.btnProduct.Button_WOC installbtn6;
+        private ePOSOne.btnProduct.Button_WOC installbtn3;
+        private ePOSOne.btnProduct.Button_WOC installbtn5;
+        private ePOSOne.btnProduct.Button_WOC installbtn2;
+        private ePOSOne.btnProduct.Button_WOC installbtn1;
     }
 }
