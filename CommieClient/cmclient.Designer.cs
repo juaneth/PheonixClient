@@ -29,6 +29,7 @@ namespace CommieClient
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cmclient));
             this.panel1 = new System.Windows.Forms.Panel();
             this.button_woc5 = new ePOSOne.btnProduct.Button_WOC();
             this.button_woc4 = new ePOSOne.btnProduct.Button_WOC();
@@ -771,6 +772,8 @@ namespace CommieClient
             this.ClientSize = new System.Drawing.Size(885, 793);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel10);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "cmclient";
             this.Text = "CommieClient";
             this.Load += new System.EventHandler(this.cmclient_Load);
