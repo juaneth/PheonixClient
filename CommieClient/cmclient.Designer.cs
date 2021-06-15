@@ -718,9 +718,9 @@ namespace CommieClient
             this.idtext1.ForeColor = System.Drawing.Color.White;
             this.idtext1.Location = new System.Drawing.Point(14, 240);
             this.idtext1.Name = "idtext1";
-            this.idtext1.Size = new System.Drawing.Size(38, 15);
+            this.idtext1.Size = new System.Drawing.Size(68, 15);
             this.idtext1.TabIndex = 2;
-            this.idtext1.Text = "label2";
+            this.idtext1.Text = "TempName";
             // 
             // cover1
             // 
@@ -740,9 +740,9 @@ namespace CommieClient
             this.name1.ForeColor = System.Drawing.Color.White;
             this.name1.Location = new System.Drawing.Point(14, 11);
             this.name1.Name = "name1";
-            this.name1.Size = new System.Drawing.Size(38, 15);
+            this.name1.Size = new System.Drawing.Size(68, 15);
             this.name1.TabIndex = 0;
-            this.name1.Text = "label1";
+            this.name1.Text = "TempName";
             // 
             // panel10
             // 
