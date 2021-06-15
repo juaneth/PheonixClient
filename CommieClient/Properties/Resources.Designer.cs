@@ -63,6 +63,16 @@ namespace CommieClient.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cyberpunk_2077 {
+            get {
+                object obj = ResourceManager.GetObject("Cyberpunk 2077", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ezgif_6_e7c0125a209c {
             get {
                 object obj = ResourceManager.GetObject("ezgif-6-e7c0125a209c", resourceCulture);

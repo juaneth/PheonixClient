@@ -86,5 +86,5 @@ namespace CommieClient
             string itemid8 = "Item ID: " + File.ReadLines(repolocation).Skip(52).Take(1).First();
             idtext8.Text = itemid8;
         }
-	}
+    }
 }
