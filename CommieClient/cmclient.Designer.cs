@@ -268,10 +268,11 @@ namespace CommieClient
             // name8
             // 
             this.name8.AutoSize = true;
+            this.name8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.name8.ForeColor = System.Drawing.Color.White;
             this.name8.Location = new System.Drawing.Point(14, 11);
             this.name8.Name = "name8";
-            this.name8.Size = new System.Drawing.Size(68, 15);
+            this.name8.Size = new System.Drawing.Size(89, 21);
             this.name8.TabIndex = 0;
             this.name8.Text = "TempName";
             // 
@@ -335,10 +336,11 @@ namespace CommieClient
             // name7
             // 
             this.name7.AutoSize = true;
+            this.name7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.name7.ForeColor = System.Drawing.Color.White;
             this.name7.Location = new System.Drawing.Point(14, 11);
             this.name7.Name = "name7";
-            this.name7.Size = new System.Drawing.Size(68, 15);
+            this.name7.Size = new System.Drawing.Size(89, 21);
             this.name7.TabIndex = 0;
             this.name7.Text = "TempName";
             // 
@@ -402,10 +404,11 @@ namespace CommieClient
             // name4
             // 
             this.name4.AutoSize = true;
+            this.name4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.name4.ForeColor = System.Drawing.Color.White;
             this.name4.Location = new System.Drawing.Point(14, 11);
             this.name4.Name = "name4";
-            this.name4.Size = new System.Drawing.Size(68, 15);
+            this.name4.Size = new System.Drawing.Size(89, 21);
             this.name4.TabIndex = 0;
             this.name4.Text = "TempName";
             // 
@@ -469,10 +472,11 @@ namespace CommieClient
             // name6
             // 
             this.name6.AutoSize = true;
+            this.name6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.name6.ForeColor = System.Drawing.Color.White;
             this.name6.Location = new System.Drawing.Point(14, 11);
             this.name6.Name = "name6";
-            this.name6.Size = new System.Drawing.Size(68, 15);
+            this.name6.Size = new System.Drawing.Size(89, 21);
             this.name6.TabIndex = 0;
             this.name6.Text = "TempName";
             // 
@@ -536,10 +540,11 @@ namespace CommieClient
             // name3
             // 
             this.name3.AutoSize = true;
+            this.name3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.name3.ForeColor = System.Drawing.Color.White;
             this.name3.Location = new System.Drawing.Point(14, 11);
             this.name3.Name = "name3";
-            this.name3.Size = new System.Drawing.Size(68, 15);
+            this.name3.Size = new System.Drawing.Size(89, 21);
             this.name3.TabIndex = 0;
             this.name3.Text = "TempName";
             // 
@@ -603,10 +608,11 @@ namespace CommieClient
             // name5
             // 
             this.name5.AutoSize = true;
+            this.name5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.name5.ForeColor = System.Drawing.Color.White;
             this.name5.Location = new System.Drawing.Point(14, 11);
             this.name5.Name = "name5";
-            this.name5.Size = new System.Drawing.Size(68, 15);
+            this.name5.Size = new System.Drawing.Size(89, 21);
             this.name5.TabIndex = 0;
             this.name5.Text = "TempName";
             // 
@@ -670,10 +676,11 @@ namespace CommieClient
             // name2
             // 
             this.name2.AutoSize = true;
+            this.name2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.name2.ForeColor = System.Drawing.Color.White;
             this.name2.Location = new System.Drawing.Point(14, 11);
             this.name2.Name = "name2";
-            this.name2.Size = new System.Drawing.Size(68, 15);
+            this.name2.Size = new System.Drawing.Size(89, 21);
             this.name2.TabIndex = 0;
             this.name2.Text = "TempName";
             // 
@@ -737,10 +744,11 @@ namespace CommieClient
             // name1
             // 
             this.name1.AutoSize = true;
+            this.name1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.name1.ForeColor = System.Drawing.Color.White;
             this.name1.Location = new System.Drawing.Point(14, 11);
             this.name1.Name = "name1";
-            this.name1.Size = new System.Drawing.Size(68, 15);
+            this.name1.Size = new System.Drawing.Size(89, 21);
             this.name1.TabIndex = 0;
             this.name1.Text = "TempName";
             // 
