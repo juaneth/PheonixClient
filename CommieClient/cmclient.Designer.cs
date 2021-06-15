@@ -206,7 +206,7 @@ namespace CommieClient
             // cover8
             // 
             this.cover8.BackColor = System.Drawing.Color.Transparent;
-            this.cover8.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.cover8.BackgroundImage = global::CommieClient.Properties.Resources.icon1;
             this.cover8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cover8.Location = new System.Drawing.Point(14, 34);
             this.cover8.Name = "cover8";
@@ -263,7 +263,7 @@ namespace CommieClient
             // cover7
             // 
             this.cover7.BackColor = System.Drawing.Color.Transparent;
-            this.cover7.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.cover7.BackgroundImage = global::CommieClient.Properties.Resources.icon1;
             this.cover7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cover7.Location = new System.Drawing.Point(14, 34);
             this.cover7.Name = "cover7";
@@ -320,7 +320,7 @@ namespace CommieClient
             // cover4
             // 
             this.cover4.BackColor = System.Drawing.Color.Transparent;
-            this.cover4.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.cover4.BackgroundImage = global::CommieClient.Properties.Resources.icon1;
             this.cover4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cover4.Location = new System.Drawing.Point(14, 34);
             this.cover4.Name = "cover4";
@@ -377,7 +377,7 @@ namespace CommieClient
             // cover6
             // 
             this.cover6.BackColor = System.Drawing.Color.Transparent;
-            this.cover6.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.cover6.BackgroundImage = global::CommieClient.Properties.Resources.icon1;
             this.cover6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cover6.Location = new System.Drawing.Point(14, 34);
             this.cover6.Name = "cover6";
@@ -434,7 +434,7 @@ namespace CommieClient
             // cover3
             // 
             this.cover3.BackColor = System.Drawing.Color.Transparent;
-            this.cover3.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.cover3.BackgroundImage = global::CommieClient.Properties.Resources.icon1;
             this.cover3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cover3.Location = new System.Drawing.Point(14, 34);
             this.cover3.Name = "cover3";
@@ -491,7 +491,7 @@ namespace CommieClient
             // cover5
             // 
             this.cover5.BackColor = System.Drawing.Color.Transparent;
-            this.cover5.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.cover5.BackgroundImage = global::CommieClient.Properties.Resources.icon1;
             this.cover5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cover5.Location = new System.Drawing.Point(14, 34);
             this.cover5.Name = "cover5";
@@ -548,7 +548,7 @@ namespace CommieClient
             // cover2
             // 
             this.cover2.BackColor = System.Drawing.Color.Transparent;
-            this.cover2.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.cover2.BackgroundImage = global::CommieClient.Properties.Resources.icon1;
             this.cover2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cover2.Location = new System.Drawing.Point(14, 34);
             this.cover2.Name = "cover2";
@@ -605,7 +605,7 @@ namespace CommieClient
             // cover1
             // 
             this.cover1.BackColor = System.Drawing.Color.Transparent;
-            this.cover1.BackgroundImage = global::CommieClient.Properties.Resources.icon;
+            this.cover1.BackgroundImage = global::CommieClient.Properties.Resources.icon1;
             this.cover1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cover1.Location = new System.Drawing.Point(14, 34);
             this.cover1.Name = "cover1";

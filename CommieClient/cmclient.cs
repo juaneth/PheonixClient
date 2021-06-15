@@ -57,10 +57,34 @@ namespace CommieClient
             idtext3.Text = itemid3;
 
             //Fourth Panel's shite
-            string itemname4 = File.ReadLines(repolocation).Skip(14).Take(1).First();
+            string itemname4 = File.ReadLines(repolocation).Skip(21).Take(1).First();
             name4.Text = itemname4;
-            string itemid4 = "Item ID: " + File.ReadLines(repolocation).Skip(17).Take(1).First();
+            string itemid4 = "Item ID: " + File.ReadLines(repolocation).Skip(24).Take(1).First();
             idtext4.Text = itemid4;
+
+            //Fifth Panel's shite
+            string itemname5 = File.ReadLines(repolocation).Skip(28).Take(1).First();
+            name5.Text = itemname5;
+            string itemid5 = "Item ID: " + File.ReadLines(repolocation).Skip(31).Take(1).First();
+            idtext5.Text = itemid5;
+
+            //Second Panel's shite
+            string itemname6 = File.ReadLines(repolocation).Skip(35).Take(1).First();
+            name6.Text = itemname6;
+            string itemid6 = "Item ID: " + File.ReadLines(repolocation).Skip(38).Take(1).First();
+            idtext6.Text = itemid6;
+
+            //Third Panel's shite
+            string itemname7 = File.ReadLines(repolocation).Skip(42).Take(1).First();
+            name7.Text = itemname7;
+            string itemid7 = "Item ID: " + File.ReadLines(repolocation).Skip(45).Take(1).First();
+            idtext7.Text = itemid7;
+
+            //Fourth Panel's shite
+            string itemname8 = File.ReadLines(repolocation).Skip(49).Take(1).First();
+            name8.Text = itemname8;
+            string itemid8 = "Item ID: " + File.ReadLines(repolocation).Skip(52).Take(1).First();
+            idtext8.Text = itemid8;
         }
 	}
 }
