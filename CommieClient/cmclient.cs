@@ -68,19 +68,19 @@ namespace CommieClient
             string itemid5 = "Item ID: " + File.ReadLines(repolocation).Skip(31).Take(1).First();
             idtext5.Text = itemid5;
 
-            //Second Panel's shite
+            //Sixth Panel's shite
             string itemname6 = File.ReadLines(repolocation).Skip(35).Take(1).First();
             name6.Text = itemname6;
             string itemid6 = "Item ID: " + File.ReadLines(repolocation).Skip(38).Take(1).First();
             idtext6.Text = itemid6;
 
-            //Third Panel's shite
+            //Seventh Panel's shite
             string itemname7 = File.ReadLines(repolocation).Skip(42).Take(1).First();
             name7.Text = itemname7;
             string itemid7 = "Item ID: " + File.ReadLines(repolocation).Skip(45).Take(1).First();
             idtext7.Text = itemid7;
 
-            //Fourth Panel's shite
+            //Eighth Panel's shite
             string itemname8 = File.ReadLines(repolocation).Skip(49).Take(1).First();
             name8.Text = itemname8;
             string itemid8 = "Item ID: " + File.ReadLines(repolocation).Skip(52).Take(1).First();
