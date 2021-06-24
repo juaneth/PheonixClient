@@ -1,5 +1,8 @@
 # CommieClient
-## communism hahahaha ![image](https://user-images.githubusercontent.com/68202118/123335900-09dafd00-d53d-11eb-82db-84310da5c9c1.png) (temporary ui, subject to change)
+## communism hahahaha ![image](https://user-images.githubusercontent.com/68202118/123335900-09dafd00-d53d-11eb-82db-84310da5c9c1.png) x-special/nautilus-clipboard
+copy
+file:///home/euanwalker2008/Downloads/LinuxCommieClient.png
+(temporary ui, subject to change)
 
 
 # Build Instructions
