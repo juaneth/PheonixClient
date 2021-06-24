@@ -1,5 +1,5 @@
 # CommieClient
-## communism hahahaha ![image](https://user-images.githubusercontent.com/68202118/123335900-09dafd00-d53d-11eb-82db-84310da5c9c1.png)
+## communism hahahaha ![image](https://user-images.githubusercontent.com/68202118/123335900-09dafd00-d53d-11eb-82db-84310da5c9c1.png) (temporary ui, subject to change)
 
 
 ## Build Instructions
