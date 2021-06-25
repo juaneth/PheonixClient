@@ -15,31 +15,25 @@ namespace CommieClient
 
         private void cmclient_Load(object sender, EventArgs e)
         {
-            //Download Testing:
-            //say that its a dev test thing
-            MessageBox.Show("This is a dev version with no repo, this just downloads the communist manifesto, click 'OK' to continue");
             //grab where the fuck the repo is
             string repolocation = File.ReadLines("savedrepo.comclient").Skip(0).Take(1).First();
-            //grab download link from where the fuck the repo is
-            string dl = File.ReadLines(repolocation).Skip(5).Take(1).First();
-            //show where its downloading from for debugging
-            MessageBox.Show(dl);
-            //get filename from repo file too
-            string filenamefromrepo = ("downloads/" + File.ReadLines(repolocation).Skip(4).Take(1).First());
-            //download file from repo
-            using (WebClient downloadclient = new WebClient())
-            {
-                downloadclient.DownloadFileAsync(
-                    //download link
-                    new System.Uri(dl),
-                    //save to filename
-                    filenamefromrepo
-                );
-            }
 
             //Load UI
 
             //This is all pretty messy so i should make a way to do this without repeating this 60 times
+
+            var repolength = File.ReadAllLines(repolocation).Length.ToString();
+            MessageBox.Show(repolength);
+            var repolengthint = File.ReadAllLines(repolocation).Length;
+            int sum = repolengthint + 1;
+            int newsum = sum / 7;
+            string newsumstring = newsum.ToString();
+            MessageBox.Show(newsumstring);
+
+
+
+
+
             //First Panel's shite
             string itemname = File.ReadLines(repolocation).Skip(0).Take(1).First();
             name1.Text = itemname;
