@@ -38,6 +38,8 @@ namespace CommieClient
             }
 
             //Load UI
+
+            //This is all pretty messy so i should make a way to do this without repeating this 60 times
             //First Panel's shite
             string itemname = File.ReadLines(repolocation).Skip(0).Take(1).First();
             name1.Text = itemname;
