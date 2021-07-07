@@ -20,8 +20,7 @@ namespace CommieClient
             //grab where the fuck the repo is
             string repolocation = File.ReadLines("savedrepo.comclient").Skip(0).Take(1).First();
 
-            //Unpack repo file
-            //rename
+
             File.Copy(repolocation, appPath + "activerepo.zip");
             if (!File.Exists(appPath + "0001"))
             {
