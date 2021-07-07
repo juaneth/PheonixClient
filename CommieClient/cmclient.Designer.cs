@@ -776,6 +776,7 @@ namespace CommieClient
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "cmclient";
             this.Text = "CommieClient";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.cmclient_FormClosing);
             this.Load += new System.EventHandler(this.cmclient_Load);
             this.panel1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);

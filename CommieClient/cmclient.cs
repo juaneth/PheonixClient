@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using System.IO;
 using System.Linq;
+using System.IO.Compression;
 
 namespace CommieClient
 {
@@ -21,7 +22,22 @@ namespace CommieClient
 
             //Unpack repo file
             //rename
-            File.Move(repolocation, appPath + "repofile.zip");
+            File.Copy(repolocation, appPath + "activerepo.zip");
+            if (!File.Exists(appPath + "0001"))
+            {
+                ZipFile.ExtractToDirectory(appPath + "activerepo.zip", appPath + "activerepo");
+            }
+            else
+            {
+                Directory.Delete(appPath + "activerepo");
+                ZipFile.ExtractToDirectory(appPath + "activerepo.zip", appPath + "activerepo");
+            }
+
+        }
+
+        private void cmclient_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
         }
     }
 }
