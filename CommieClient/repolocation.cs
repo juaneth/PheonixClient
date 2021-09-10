@@ -12,13 +12,13 @@ namespace CommieClient
             InitializeComponent();
         }
 
+        public bool firstWrite = false;
         private string appPath = Application.StartupPath;
         private void CommieClientHome_Load(object sender, EventArgs e)
         {
-            
 
             //check if config file exists
-            if (File.Exists("cfg.comclient"))
+            /*if (File.Exists("cfg.comclient"))
             {
                 //take first line of config
                 string firsttime = File.ReadLines("cfg.comclient").Skip(0).Take(1).First();
@@ -41,7 +41,7 @@ namespace CommieClient
             {
                 MessageBox.Show("so erm commie client kinda is broke, so please delete the whole installation folder and reinstall");
                 this.Close();
-            }
+            }*/
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -116,5 +116,10 @@ namespace CommieClient
 		{
 
 		}
-	}
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
