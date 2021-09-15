@@ -1,5 +1,8 @@
 # CommieClient
-## communism hahahaha ![image](https://raw.githubusercontent.com/juaneth/CommieClient/master/WindowsCommieClient.png) ![image](https://raw.githubusercontent.com/juaneth/CommieClient/master/LinuxCommieClient.png)
+## communism hahahaha 
+
+![image](https://user-images.githubusercontent.com/68202118/133503127-a7a7acb8-38f5-409e-a402-fdb42a355fc3.png)
+
 (temporary ui, subject to change)
 
 
