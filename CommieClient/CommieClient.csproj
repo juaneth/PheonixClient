@@ -12,6 +12,8 @@
     <PackageIconUrl />
     <ApplicationIcon>546175d4fad1356a4fdcda4e7ac87dcaea46df2a_00.ico</ApplicationIcon>
     <StartupObject />
+    <AssemblyName>PheonixClient</AssemblyName>
+    <RootNamespace>PheonixClient</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

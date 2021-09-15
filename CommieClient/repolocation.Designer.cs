@@ -1,5 +1,5 @@
 ﻿
-namespace CommieClient
+namespace PheonixClient
 {
     partial class repolocation
     {

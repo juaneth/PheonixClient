@@ -2,7 +2,7 @@
 using System.IO;
 using System.Windows.Forms;
 
-namespace CommieClient
+namespace PheonixClient
 {
     public partial class repolocation : Form
     {
