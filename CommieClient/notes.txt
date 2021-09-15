@@ -7,4 +7,6 @@ The store is a bit tricky for the UI but the main idea is pretty simple, i just 
 
 I also could add some like how much money has been saved by pirating, like grab the price of all the games and then add them all up
 
+gonna add featured/favourites that show up on main menu
+
 cum
