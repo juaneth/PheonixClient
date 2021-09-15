@@ -3,7 +3,8 @@
 
 ![image](https://user-images.githubusercontent.com/68202118/133503127-a7a7acb8-38f5-409e-a402-fdb42a355fc3.png)
 
-(temporary ui, subject to change)
+(temporary ui, subject to change. Wine not shown here with new UI)
+
 
 
 # Build Instructions
