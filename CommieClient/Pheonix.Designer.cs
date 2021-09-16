@@ -1,7 +1,7 @@
 ﻿
 namespace PheonixClient
 {
-    partial class cmclient
+    partial class Pheonix
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace PheonixClient
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cmclient));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pheonix));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();

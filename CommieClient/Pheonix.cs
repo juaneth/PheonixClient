@@ -6,9 +6,9 @@ using System.IO;
 
 namespace PheonixClient
 {
-    public partial class cmclient : Form
+    public partial class Pheonix : Form
     {
-        public cmclient()
+        public Pheonix()
         {
             InitializeComponent();
         }
