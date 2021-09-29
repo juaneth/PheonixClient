@@ -10,7 +10,7 @@
     <Description />
     <PackageIcon>commieclient.ico</PackageIcon>
     <PackageIconUrl />
-    <ApplicationIcon></ApplicationIcon>
+    <ApplicationIcon>output-onlinepngtools.ico</ApplicationIcon>
     <StartupObject />
     <AssemblyName>PheonixClient</AssemblyName>
     <RootNamespace>PheonixClient</RootNamespace>
