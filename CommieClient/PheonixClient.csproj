@@ -10,7 +10,7 @@
     <Description />
     <PackageIcon>commieclient.ico</PackageIcon>
     <PackageIconUrl />
-    <ApplicationIcon>546175d4fad1356a4fdcda4e7ac87dcaea46df2a_00.ico</ApplicationIcon>
+    <ApplicationIcon></ApplicationIcon>
     <StartupObject />
     <AssemblyName>PheonixClient</AssemblyName>
     <RootNamespace>PheonixClient</RootNamespace>
@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <PackageReference Include="AltoControls.NetCore" Version="1.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
   <ItemGroup>

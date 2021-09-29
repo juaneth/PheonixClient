@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace PheonixClient
 {
@@ -15,14 +16,13 @@ namespace PheonixClient
 
         private void cmclient_Load(object sender, EventArgs e)
         {
-            var repo = "";
+            
         }
-
 
         //Rounded panels stuff, idk if I want to even use it ->
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
-            var cfg = File.ReadAllLines("cfg.comclient");
+            var cfg = File.ReadAllLines("config.commie");
 
              Graphics v = e.Graphics;
              DrawRoundRect(v, Pens.WhiteSmoke, e.ClipRectangle.Left, e.ClipRectangle.Top, e.ClipRectangle.Width - 1, e.ClipRectangle.Height - 1, 10);
