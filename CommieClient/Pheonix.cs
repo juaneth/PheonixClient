@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 using System.IO;
-using Newtonsoft.Json;
+using static System.Environment;
 
 namespace PheonixClient
 {
@@ -16,8 +16,25 @@ namespace PheonixClient
 
         private void cmclient_Load(object sender, EventArgs e)
         {
-            //Adding Fonts to all labels
+            //Install fonts
+            try
+            {
+                File.Copy("fonts/Apercu-Mono.ttf", Path.Combine(Environment.GetFolderPath(SpecialFolder.Windows), "Fonts", "Apercu-Mono.ttf"));
 
+                Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts");
+                key.SetValue("Apercu-Mono - Packaged with Pheonix Client", "Apercu-Mono.tff");
+                key.Close();
+
+                File.Copy("fonts/Nexa-Regular.ttf", Path.Combine(Environment.GetFolderPath(SpecialFolder.Windows), "Fonts", "Nexa-Regular.ttf"));
+
+                Microsoft.Win32.RegistryKey key2 = Microsoft.Win32.Registry.LocalMachine.CreateSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts");
+                key2.SetValue("Nexa-Regular - Packaged with Pheonix Client", "Nexa-Regular.tff");
+                key2.Close();
+            }
+            catch
+            {
+
+            }
         }
 
         //Rounded panels stuff, idk if I want to even use it ->
@@ -26,7 +43,7 @@ namespace PheonixClient
             var cfg = File.ReadAllLines("config.commie");
 
              Graphics v = e.Graphics;
-             DrawRoundRect(v, Pens.WhiteSmoke, e.ClipRectangle.Left, e.ClipRectangle.Top, e.ClipRectangle.Width - 1, e.ClipRectangle.Height - 1, 10);
+             DrawRoundRect(v, Pens.WhiteSmoke, e.ClipRectangle.Left, e.ClipRectangle.Top, e.ClipRectangle.Width - 1, e.ClipRectangle.Height - 1, 5);
              base.OnPaint(e);
         }
 
