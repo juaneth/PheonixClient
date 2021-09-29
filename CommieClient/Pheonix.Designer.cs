@@ -102,7 +102,7 @@ namespace PheonixClient
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::PheonixClient.Properties.Resources.output_onlinepngtools;
+            this.pictureBox3.Image = global::PheonixClient.Properties.Resources.Icon;
             this.pictureBox3.Location = new System.Drawing.Point(206, 19);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(54, 50);
@@ -362,7 +362,7 @@ namespace PheonixClient
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::PheonixClient.Properties.Resources.output_onlinepngtools;
+            this.pictureBox2.Image = global::PheonixClient.Properties.Resources.Icon;
             this.pictureBox2.Location = new System.Drawing.Point(13, 13);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(205, 238);
@@ -416,7 +416,7 @@ namespace PheonixClient
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::PheonixClient.Properties.Resources.output_onlinepngtools;
+            this.pictureBox1.Image = global::PheonixClient.Properties.Resources.Icon;
             this.pictureBox1.Location = new System.Drawing.Point(13, 13);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(205, 238);
