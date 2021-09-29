@@ -32,48 +32,48 @@ namespace PheonixClient
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pheonix));
             this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.topnav = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button_woc3 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_woc2 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_woc1 = new ePOSOne.btnProduct.Button_WOC();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.Featured = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.settings = new ePOSOne.btnProduct.Button_WOC();
+            this.store = new ePOSOne.btnProduct.Button_WOC();
+            this.library = new ePOSOne.btnProduct.Button_WOC();
+            this.maincontent = new System.Windows.Forms.Panel();
+            this.quickswitch = new System.Windows.Forms.Panel();
+            this.quickrepo3 = new System.Windows.Forms.Panel();
+            this.quickrepodesc3 = new System.Windows.Forms.Label();
+            this.quickreponame3 = new System.Windows.Forms.Label();
+            this.quickrepo2 = new System.Windows.Forms.Panel();
+            this.quickrepodesc2 = new System.Windows.Forms.Label();
+            this.quickreponame2 = new System.Windows.Forms.Label();
+            this.quickrepo1 = new System.Windows.Forms.Panel();
+            this.quickrepodesc1 = new System.Windows.Forms.Label();
+            this.quickreponame1 = new System.Windows.Forms.Label();
+            this.quickswitchlabel = new System.Windows.Forms.Label();
+            this.featured = new System.Windows.Forms.Panel();
+            this.featuredlabel = new System.Windows.Forms.Label();
+            this.featured2 = new System.Windows.Forms.Panel();
+            this.featureddescription2 = new System.Windows.Forms.Label();
+            this.featuredprice2 = new System.Windows.Forms.Label();
+            this.featuredname2 = new System.Windows.Forms.Label();
+            this.featuredcover2 = new System.Windows.Forms.PictureBox();
+            this.featured1 = new System.Windows.Forms.Panel();
+            this.featureddescription1 = new System.Windows.Forms.Label();
+            this.featuredprice1 = new System.Windows.Forms.Label();
+            this.featuredname1 = new System.Windows.Forms.Label();
+            this.featuredcover1 = new System.Windows.Forms.PictureBox();
             this.animation = new System.Windows.Forms.Timer(this.components);
-            this.panel1.SuspendLayout();
+            this.topnav.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.Featured.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.maincontent.SuspendLayout();
+            this.quickswitch.SuspendLayout();
+            this.quickrepo3.SuspendLayout();
+            this.quickrepo2.SuspendLayout();
+            this.quickrepo1.SuspendLayout();
+            this.featured.SuspendLayout();
+            this.featured2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.featuredcover2)).BeginInit();
+            this.featured1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.featuredcover1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -87,18 +87,18 @@ namespace PheonixClient
             this.label1.TabIndex = 0;
             this.label1.Text = "<Pheonix/>";
             // 
-            // panel1
+            // topnav
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.button_woc3);
-            this.panel1.Controls.Add(this.button_woc2);
-            this.panel1.Controls.Add(this.button_woc1);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(-4, -3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1120, 88);
-            this.panel1.TabIndex = 1;
+            this.topnav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.topnav.Controls.Add(this.pictureBox3);
+            this.topnav.Controls.Add(this.settings);
+            this.topnav.Controls.Add(this.store);
+            this.topnav.Controls.Add(this.library);
+            this.topnav.Controls.Add(this.label1);
+            this.topnav.Location = new System.Drawing.Point(-4, -3);
+            this.topnav.Name = "topnav";
+            this.topnav.Size = new System.Drawing.Size(1120, 88);
+            this.topnav.TabIndex = 1;
             // 
             // pictureBox3
             // 
@@ -110,319 +110,319 @@ namespace PheonixClient
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
             // 
-            // button_woc3
+            // settings
             // 
-            this.button_woc3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.button_woc3.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button_woc3.FlatAppearance.BorderSize = 0;
-            this.button_woc3.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.button_woc3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.button_woc3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.button_woc3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_woc3.Font = new System.Drawing.Font("Nexa-Trial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_woc3.Location = new System.Drawing.Point(939, 12);
-            this.button_woc3.Name = "button_woc3";
-            this.button_woc3.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.button_woc3.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button_woc3.OnHoverTextColor = System.Drawing.Color.White;
-            this.button_woc3.Size = new System.Drawing.Size(170, 65);
-            this.button_woc3.TabIndex = 2;
-            this.button_woc3.Text = "Settings";
-            this.button_woc3.TextColor = System.Drawing.Color.White;
-            this.button_woc3.UseVisualStyleBackColor = true;
+            this.settings.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.settings.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.settings.FlatAppearance.BorderSize = 0;
+            this.settings.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.settings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.settings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.settings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.settings.Font = new System.Drawing.Font("Nexa-Trial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.settings.Location = new System.Drawing.Point(939, 12);
+            this.settings.Name = "settings";
+            this.settings.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.settings.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.settings.OnHoverTextColor = System.Drawing.Color.White;
+            this.settings.Size = new System.Drawing.Size(170, 65);
+            this.settings.TabIndex = 2;
+            this.settings.Text = "Settings";
+            this.settings.TextColor = System.Drawing.Color.White;
+            this.settings.UseVisualStyleBackColor = true;
             // 
-            // button_woc2
+            // store
             // 
-            this.button_woc2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.button_woc2.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button_woc2.FlatAppearance.BorderSize = 0;
-            this.button_woc2.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.button_woc2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.button_woc2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.button_woc2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_woc2.Font = new System.Drawing.Font("Nexa-Trial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_woc2.Location = new System.Drawing.Point(382, 8);
-            this.button_woc2.Name = "button_woc2";
-            this.button_woc2.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.button_woc2.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button_woc2.OnHoverTextColor = System.Drawing.Color.White;
-            this.button_woc2.Size = new System.Drawing.Size(169, 72);
-            this.button_woc2.TabIndex = 1;
-            this.button_woc2.Text = "Store";
-            this.button_woc2.TextColor = System.Drawing.Color.White;
-            this.button_woc2.UseVisualStyleBackColor = true;
+            this.store.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.store.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.store.FlatAppearance.BorderSize = 0;
+            this.store.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.store.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.store.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.store.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.store.Font = new System.Drawing.Font("Nexa-Trial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.store.Location = new System.Drawing.Point(382, 8);
+            this.store.Name = "store";
+            this.store.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.store.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.store.OnHoverTextColor = System.Drawing.Color.White;
+            this.store.Size = new System.Drawing.Size(169, 72);
+            this.store.TabIndex = 1;
+            this.store.Text = "Store";
+            this.store.TextColor = System.Drawing.Color.White;
+            this.store.UseVisualStyleBackColor = true;
             // 
-            // button_woc1
+            // library
             // 
-            this.button_woc1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.button_woc1.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button_woc1.FlatAppearance.BorderSize = 0;
-            this.button_woc1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.button_woc1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.button_woc1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.button_woc1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_woc1.Font = new System.Drawing.Font("Nexa-Trial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_woc1.Location = new System.Drawing.Point(570, 8);
-            this.button_woc1.Name = "button_woc1";
-            this.button_woc1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.button_woc1.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button_woc1.OnHoverTextColor = System.Drawing.Color.White;
-            this.button_woc1.Size = new System.Drawing.Size(169, 72);
-            this.button_woc1.TabIndex = 0;
-            this.button_woc1.Text = "Library";
-            this.button_woc1.TextColor = System.Drawing.Color.White;
-            this.button_woc1.UseVisualStyleBackColor = true;
+            this.library.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.library.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.library.FlatAppearance.BorderSize = 0;
+            this.library.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.library.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.library.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.library.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.library.Font = new System.Drawing.Font("Nexa-Trial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.library.Location = new System.Drawing.Point(570, 8);
+            this.library.Name = "library";
+            this.library.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.library.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.library.OnHoverTextColor = System.Drawing.Color.White;
+            this.library.Size = new System.Drawing.Size(169, 72);
+            this.library.TabIndex = 0;
+            this.library.Text = "Library";
+            this.library.TextColor = System.Drawing.Color.White;
+            this.library.UseVisualStyleBackColor = true;
             // 
-            // panel2
+            // maincontent
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.panel2.Controls.Add(this.panel8);
-            this.panel2.Controls.Add(this.Featured);
-            this.panel2.Location = new System.Drawing.Point(-5, 85);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1123, 563);
-            this.panel2.TabIndex = 2;
+            this.maincontent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.maincontent.Controls.Add(this.quickswitch);
+            this.maincontent.Controls.Add(this.featured);
+            this.maincontent.Location = new System.Drawing.Point(-5, 85);
+            this.maincontent.Name = "maincontent";
+            this.maincontent.Size = new System.Drawing.Size(1123, 563);
+            this.maincontent.TabIndex = 2;
             // 
-            // panel8
+            // quickswitch
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.panel8.Controls.Add(this.panel7);
-            this.panel8.Controls.Add(this.panel6);
-            this.panel8.Controls.Add(this.panel5);
-            this.panel8.Controls.Add(this.label9);
-            this.panel8.Location = new System.Drawing.Point(17, 361);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1089, 185);
-            this.panel8.TabIndex = 7;
+            this.quickswitch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.quickswitch.Controls.Add(this.quickrepo3);
+            this.quickswitch.Controls.Add(this.quickrepo2);
+            this.quickswitch.Controls.Add(this.quickrepo1);
+            this.quickswitch.Controls.Add(this.quickswitchlabel);
+            this.quickswitch.Location = new System.Drawing.Point(17, 361);
+            this.quickswitch.Name = "quickswitch";
+            this.quickswitch.Size = new System.Drawing.Size(1089, 185);
+            this.quickswitch.TabIndex = 7;
             // 
-            // panel7
+            // quickrepo3
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel7.Controls.Add(this.label14);
-            this.panel7.Controls.Add(this.label15);
-            this.panel7.Location = new System.Drawing.Point(762, 43);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(317, 132);
-            this.panel7.TabIndex = 6;
+            this.quickrepo3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.quickrepo3.Controls.Add(this.quickrepodesc3);
+            this.quickrepo3.Controls.Add(this.quickreponame3);
+            this.quickrepo3.Location = new System.Drawing.Point(762, 43);
+            this.quickrepo3.Name = "quickrepo3";
+            this.quickrepo3.Size = new System.Drawing.Size(317, 132);
+            this.quickrepo3.TabIndex = 6;
             // 
-            // label14
+            // quickrepodesc3
             // 
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(13, 26);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(298, 58);
-            this.label14.TabIndex = 3;
-            this.label14.Text = "Description ------------------------------------------------\r\n";
+            this.quickrepodesc3.ForeColor = System.Drawing.Color.White;
+            this.quickrepodesc3.Location = new System.Drawing.Point(13, 26);
+            this.quickrepodesc3.Name = "quickrepodesc3";
+            this.quickrepodesc3.Size = new System.Drawing.Size(298, 97);
+            this.quickrepodesc3.TabIndex = 3;
+            this.quickrepodesc3.Text = "Description ------------------------------------------------\r\n";
             // 
-            // label15
+            // quickreponame3
             // 
-            this.label15.AutoSize = true;
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(13, 9);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(49, 16);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "Repo 3";
+            this.quickreponame3.AutoSize = true;
+            this.quickreponame3.ForeColor = System.Drawing.Color.White;
+            this.quickreponame3.Location = new System.Drawing.Point(13, 9);
+            this.quickreponame3.Name = "quickreponame3";
+            this.quickreponame3.Size = new System.Drawing.Size(49, 16);
+            this.quickreponame3.TabIndex = 1;
+            this.quickreponame3.Text = "Repo 3";
             // 
-            // panel6
+            // quickrepo2
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel6.Controls.Add(this.label11);
-            this.panel6.Controls.Add(this.label13);
-            this.panel6.Location = new System.Drawing.Point(385, 44);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(319, 132);
-            this.panel6.TabIndex = 5;
+            this.quickrepo2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.quickrepo2.Controls.Add(this.quickrepodesc2);
+            this.quickrepo2.Controls.Add(this.quickreponame2);
+            this.quickrepo2.Location = new System.Drawing.Point(385, 44);
+            this.quickrepo2.Name = "quickrepo2";
+            this.quickrepo2.Size = new System.Drawing.Size(319, 132);
+            this.quickrepo2.TabIndex = 5;
             // 
-            // label11
+            // quickrepodesc2
             // 
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(13, 26);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(298, 58);
-            this.label11.TabIndex = 3;
-            this.label11.Text = "Description ------------------------------------------------\r\n";
+            this.quickrepodesc2.ForeColor = System.Drawing.Color.White;
+            this.quickrepodesc2.Location = new System.Drawing.Point(13, 26);
+            this.quickrepodesc2.Name = "quickrepodesc2";
+            this.quickrepodesc2.Size = new System.Drawing.Size(298, 96);
+            this.quickrepodesc2.TabIndex = 3;
+            this.quickrepodesc2.Text = "Description ------------------------------------------------\r\n";
             // 
-            // label13
+            // quickreponame2
             // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(13, 9);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(49, 16);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "Repo 2";
+            this.quickreponame2.AutoSize = true;
+            this.quickreponame2.ForeColor = System.Drawing.Color.White;
+            this.quickreponame2.Location = new System.Drawing.Point(13, 9);
+            this.quickreponame2.Name = "quickreponame2";
+            this.quickreponame2.Size = new System.Drawing.Size(49, 16);
+            this.quickreponame2.TabIndex = 1;
+            this.quickreponame2.Text = "Repo 2";
             // 
-            // panel5
+            // quickrepo1
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel5.Controls.Add(this.label10);
-            this.panel5.Controls.Add(this.label12);
-            this.panel5.Location = new System.Drawing.Point(10, 44);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(319, 132);
-            this.panel5.TabIndex = 4;
+            this.quickrepo1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.quickrepo1.Controls.Add(this.quickrepodesc1);
+            this.quickrepo1.Controls.Add(this.quickreponame1);
+            this.quickrepo1.Location = new System.Drawing.Point(10, 44);
+            this.quickrepo1.Name = "quickrepo1";
+            this.quickrepo1.Size = new System.Drawing.Size(319, 132);
+            this.quickrepo1.TabIndex = 4;
             // 
-            // label10
+            // quickrepodesc1
             // 
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(13, 26);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(298, 58);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "Description ------------------------------------------------\r\n";
+            this.quickrepodesc1.ForeColor = System.Drawing.Color.White;
+            this.quickrepodesc1.Location = new System.Drawing.Point(13, 26);
+            this.quickrepodesc1.Name = "quickrepodesc1";
+            this.quickrepodesc1.Size = new System.Drawing.Size(298, 96);
+            this.quickrepodesc1.TabIndex = 3;
+            this.quickrepodesc1.Text = "Description ------------------------------------------------\r\n";
             // 
-            // label12
+            // quickreponame1
             // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(13, 9);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(46, 16);
-            this.label12.TabIndex = 1;
-            this.label12.Text = "Repo 1";
+            this.quickreponame1.AutoSize = true;
+            this.quickreponame1.ForeColor = System.Drawing.Color.White;
+            this.quickreponame1.Location = new System.Drawing.Point(13, 9);
+            this.quickreponame1.Name = "quickreponame1";
+            this.quickreponame1.Size = new System.Drawing.Size(46, 16);
+            this.quickreponame1.TabIndex = 1;
+            this.quickreponame1.Text = "Repo 1";
             // 
-            // label9
+            // quickswitchlabel
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Nexa-Trial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(470, 8);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(148, 27);
-            this.label9.TabIndex = 6;
-            this.label9.Text = "Quick Switch:";
+            this.quickswitchlabel.AutoSize = true;
+            this.quickswitchlabel.Font = new System.Drawing.Font("Nexa-Trial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.quickswitchlabel.ForeColor = System.Drawing.Color.White;
+            this.quickswitchlabel.Location = new System.Drawing.Point(470, 8);
+            this.quickswitchlabel.Name = "quickswitchlabel";
+            this.quickswitchlabel.Size = new System.Drawing.Size(148, 27);
+            this.quickswitchlabel.TabIndex = 6;
+            this.quickswitchlabel.Text = "Quick Switch:";
             // 
-            // Featured
+            // featured
             // 
-            this.Featured.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.Featured.Controls.Add(this.label8);
-            this.Featured.Controls.Add(this.panel4);
-            this.Featured.Controls.Add(this.panel3);
-            this.Featured.Location = new System.Drawing.Point(17, 16);
-            this.Featured.Name = "Featured";
-            this.Featured.Size = new System.Drawing.Size(1089, 339);
-            this.Featured.TabIndex = 0;
-            this.Featured.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            this.featured.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.featured.Controls.Add(this.featuredlabel);
+            this.featured.Controls.Add(this.featured2);
+            this.featured.Controls.Add(this.featured1);
+            this.featured.Location = new System.Drawing.Point(17, 16);
+            this.featured.Name = "featured";
+            this.featured.Size = new System.Drawing.Size(1089, 339);
+            this.featured.TabIndex = 0;
+            this.featured.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
-            // label8
+            // featuredlabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Nexa-Trial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(484, 15);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(121, 31);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "Featured";
+            this.featuredlabel.AutoSize = true;
+            this.featuredlabel.Font = new System.Drawing.Font("Nexa-Trial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.featuredlabel.ForeColor = System.Drawing.Color.White;
+            this.featuredlabel.Location = new System.Drawing.Point(484, 15);
+            this.featuredlabel.Name = "featuredlabel";
+            this.featuredlabel.Size = new System.Drawing.Size(121, 31);
+            this.featuredlabel.TabIndex = 5;
+            this.featuredlabel.Text = "Featured";
             // 
-            // panel4
+            // featured2
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Controls.Add(this.pictureBox2);
-            this.panel4.Location = new System.Drawing.Point(554, 62);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(522, 264);
-            this.panel4.TabIndex = 4;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            this.featured2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.featured2.Controls.Add(this.featureddescription2);
+            this.featured2.Controls.Add(this.featuredprice2);
+            this.featured2.Controls.Add(this.featuredname2);
+            this.featured2.Controls.Add(this.featuredcover2);
+            this.featured2.Location = new System.Drawing.Point(554, 62);
+            this.featured2.Name = "featured2";
+            this.featured2.Size = new System.Drawing.Size(522, 264);
+            this.featured2.TabIndex = 4;
+            this.featured2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
-            // label5
+            // featureddescription2
             // 
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(224, 43);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(295, 219);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Description ------------------------------------------------\r\n";
+            this.featureddescription2.ForeColor = System.Drawing.Color.White;
+            this.featureddescription2.Location = new System.Drawing.Point(224, 43);
+            this.featureddescription2.Name = "featureddescription2";
+            this.featureddescription2.Size = new System.Drawing.Size(295, 219);
+            this.featureddescription2.TabIndex = 3;
+            this.featureddescription2.Text = "Description ------------------------------------------------\r\n";
             // 
-            // label6
+            // featuredprice2
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Apercu Mono", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.Green;
-            this.label6.Location = new System.Drawing.Point(224, 29);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 14);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "-$60";
+            this.featuredprice2.AutoSize = true;
+            this.featuredprice2.Font = new System.Drawing.Font("Apercu Mono", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.featuredprice2.ForeColor = System.Drawing.Color.Green;
+            this.featuredprice2.Location = new System.Drawing.Point(224, 29);
+            this.featuredprice2.Name = "featuredprice2";
+            this.featuredprice2.Size = new System.Drawing.Size(35, 14);
+            this.featuredprice2.TabIndex = 2;
+            this.featuredprice2.Text = "-$60";
             // 
-            // label7
+            // featuredname2
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(224, 13);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 16);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Game 1";
+            this.featuredname2.AutoSize = true;
+            this.featuredname2.ForeColor = System.Drawing.Color.White;
+            this.featuredname2.Location = new System.Drawing.Point(224, 13);
+            this.featuredname2.Name = "featuredname2";
+            this.featuredname2.Size = new System.Drawing.Size(53, 16);
+            this.featuredname2.TabIndex = 1;
+            this.featuredname2.Text = "Game 2";
             // 
-            // pictureBox2
+            // featuredcover2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::PheonixClient.Properties.Resources.Icon;
-            this.pictureBox2.Location = new System.Drawing.Point(13, 13);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(205, 238);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.featuredcover2.BackColor = System.Drawing.Color.Transparent;
+            this.featuredcover2.Image = global::PheonixClient.Properties.Resources.Icon;
+            this.featuredcover2.Location = new System.Drawing.Point(13, 13);
+            this.featuredcover2.Name = "featuredcover2";
+            this.featuredcover2.Size = new System.Drawing.Size(205, 238);
+            this.featuredcover2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.featuredcover2.TabIndex = 0;
+            this.featuredcover2.TabStop = false;
             // 
-            // panel3
+            // featured1
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Location = new System.Drawing.Point(10, 62);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(525, 264);
-            this.panel3.TabIndex = 0;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            this.featured1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.featured1.Controls.Add(this.featureddescription1);
+            this.featured1.Controls.Add(this.featuredprice1);
+            this.featured1.Controls.Add(this.featuredname1);
+            this.featured1.Controls.Add(this.featuredcover1);
+            this.featured1.Location = new System.Drawing.Point(10, 62);
+            this.featured1.Name = "featured1";
+            this.featured1.Size = new System.Drawing.Size(525, 264);
+            this.featured1.TabIndex = 0;
+            this.featured1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
-            // label4
+            // featureddescription1
             // 
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(224, 43);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(298, 219);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Description ------------------------------------------------\r\n";
+            this.featureddescription1.ForeColor = System.Drawing.Color.White;
+            this.featureddescription1.Location = new System.Drawing.Point(224, 43);
+            this.featureddescription1.Name = "featureddescription1";
+            this.featureddescription1.Size = new System.Drawing.Size(298, 219);
+            this.featureddescription1.TabIndex = 3;
+            this.featureddescription1.Text = "Description ------------------------------------------------\r\n";
             // 
-            // label3
+            // featuredprice1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Apercu Mono", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Green;
-            this.label3.Location = new System.Drawing.Point(224, 29);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 14);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "-$60";
+            this.featuredprice1.AutoSize = true;
+            this.featuredprice1.Font = new System.Drawing.Font("Apercu Mono", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.featuredprice1.ForeColor = System.Drawing.Color.Green;
+            this.featuredprice1.Location = new System.Drawing.Point(224, 29);
+            this.featuredprice1.Name = "featuredprice1";
+            this.featuredprice1.Size = new System.Drawing.Size(35, 14);
+            this.featuredprice1.TabIndex = 2;
+            this.featuredprice1.Text = "-$60";
             // 
-            // label2
+            // featuredname1
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(224, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Game 1";
+            this.featuredname1.AutoSize = true;
+            this.featuredname1.ForeColor = System.Drawing.Color.White;
+            this.featuredname1.Location = new System.Drawing.Point(224, 13);
+            this.featuredname1.Name = "featuredname1";
+            this.featuredname1.Size = new System.Drawing.Size(50, 16);
+            this.featuredname1.TabIndex = 1;
+            this.featuredname1.Text = "Game 1";
             // 
-            // pictureBox1
+            // featuredcover1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::PheonixClient.Properties.Resources.Icon;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 13);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(205, 238);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.featuredcover1.BackColor = System.Drawing.Color.Transparent;
+            this.featuredcover1.Image = global::PheonixClient.Properties.Resources.Icon;
+            this.featuredcover1.Location = new System.Drawing.Point(13, 13);
+            this.featuredcover1.Name = "featuredcover1";
+            this.featuredcover1.Size = new System.Drawing.Size(205, 238);
+            this.featuredcover1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.featuredcover1.TabIndex = 0;
+            this.featuredcover1.TabStop = false;
             // 
             // animation
             // 
@@ -434,34 +434,34 @@ namespace PheonixClient
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.ClientSize = new System.Drawing.Size(1113, 645);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.maincontent);
+            this.Controls.Add(this.topnav);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Nexa-Trial", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Pheonix";
             this.Text = "Pheonix Client";
             this.Load += new System.EventHandler(this.cmclient_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.topnav.ResumeLayout(false);
+            this.topnav.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.Featured.ResumeLayout(false);
-            this.Featured.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.maincontent.ResumeLayout(false);
+            this.quickswitch.ResumeLayout(false);
+            this.quickswitch.PerformLayout();
+            this.quickrepo3.ResumeLayout(false);
+            this.quickrepo3.PerformLayout();
+            this.quickrepo2.ResumeLayout(false);
+            this.quickrepo2.PerformLayout();
+            this.quickrepo1.ResumeLayout(false);
+            this.quickrepo1.PerformLayout();
+            this.featured.ResumeLayout(false);
+            this.featured.PerformLayout();
+            this.featured2.ResumeLayout(false);
+            this.featured2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.featuredcover2)).EndInit();
+            this.featured1.ResumeLayout(false);
+            this.featured1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.featuredcover1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -469,35 +469,35 @@ namespace PheonixClient
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private ePOSOne.btnProduct.Button_WOC button_woc1;
-        private ePOSOne.btnProduct.Button_WOC button_woc2;
-        private ePOSOne.btnProduct.Button_WOC button_woc3;
+        private System.Windows.Forms.Panel topnav;
+        private System.Windows.Forms.Panel maincontent;
+        private ePOSOne.btnProduct.Button_WOC library;
+        private ePOSOne.btnProduct.Button_WOC store;
+        private ePOSOne.btnProduct.Button_WOC settings;
         private System.Windows.Forms.Timer animation;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Panel Featured;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Panel featured;
+        private System.Windows.Forms.Label featuredlabel;
+        private System.Windows.Forms.Panel featured2;
+        private System.Windows.Forms.Label featureddescription2;
+        private System.Windows.Forms.Label featuredprice2;
+        private System.Windows.Forms.Label featuredname2;
+        private System.Windows.Forms.PictureBox featuredcover2;
+        private System.Windows.Forms.Panel featured1;
+        private System.Windows.Forms.Label featureddescription1;
+        private System.Windows.Forms.Label featuredprice1;
+        private System.Windows.Forms.Label featuredname1;
+        private System.Windows.Forms.PictureBox featuredcover1;
+        private System.Windows.Forms.Panel quickswitch;
+        private System.Windows.Forms.Label quickswitchlabel;
+        private System.Windows.Forms.Panel quickrepo1;
+        private System.Windows.Forms.Label quickrepodesc1;
+        private System.Windows.Forms.Label quickreponame1;
+        private System.Windows.Forms.Panel quickrepo2;
+        private System.Windows.Forms.Label quickrepodesc2;
+        private System.Windows.Forms.Label quickreponame2;
+        private System.Windows.Forms.Panel quickrepo3;
+        private System.Windows.Forms.Label quickrepodesc3;
+        private System.Windows.Forms.Label quickreponame3;
     }
 }

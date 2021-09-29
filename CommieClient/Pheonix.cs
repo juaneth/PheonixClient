@@ -16,7 +16,8 @@ namespace PheonixClient
 
         private void cmclient_Load(object sender, EventArgs e)
         {
-            
+            //Adding Fonts to all labels
+
         }
 
         //Rounded panels stuff, idk if I want to even use it ->
