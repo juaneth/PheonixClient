@@ -332,9 +332,9 @@ namespace PheonixClient
             // featureddescription2
             // 
             this.featureddescription2.ForeColor = System.Drawing.Color.White;
-            this.featureddescription2.Location = new System.Drawing.Point(224, 43);
+            this.featureddescription2.Location = new System.Drawing.Point(186, 43);
             this.featureddescription2.Name = "featureddescription2";
-            this.featureddescription2.Size = new System.Drawing.Size(295, 219);
+            this.featureddescription2.Size = new System.Drawing.Size(323, 219);
             this.featureddescription2.TabIndex = 3;
             this.featureddescription2.Text = "Description ------------------------------------------------\r\n";
             // 
@@ -343,7 +343,7 @@ namespace PheonixClient
             this.featuredprice2.AutoSize = true;
             this.featuredprice2.Font = new System.Drawing.Font("Apercu Mono", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.featuredprice2.ForeColor = System.Drawing.Color.Green;
-            this.featuredprice2.Location = new System.Drawing.Point(224, 29);
+            this.featuredprice2.Location = new System.Drawing.Point(186, 29);
             this.featuredprice2.Name = "featuredprice2";
             this.featuredprice2.Size = new System.Drawing.Size(35, 14);
             this.featuredprice2.TabIndex = 2;
@@ -353,7 +353,7 @@ namespace PheonixClient
             // 
             this.featuredname2.AutoSize = true;
             this.featuredname2.ForeColor = System.Drawing.Color.White;
-            this.featuredname2.Location = new System.Drawing.Point(224, 13);
+            this.featuredname2.Location = new System.Drawing.Point(186, 13);
             this.featuredname2.Name = "featuredname2";
             this.featuredname2.Size = new System.Drawing.Size(53, 16);
             this.featuredname2.TabIndex = 1;
@@ -365,7 +365,7 @@ namespace PheonixClient
             this.featuredcover2.Image = global::PheonixClient.Properties.Resources.Icon;
             this.featuredcover2.Location = new System.Drawing.Point(13, 13);
             this.featuredcover2.Name = "featuredcover2";
-            this.featuredcover2.Size = new System.Drawing.Size(205, 238);
+            this.featuredcover2.Size = new System.Drawing.Size(167, 238);
             this.featuredcover2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.featuredcover2.TabIndex = 0;
             this.featuredcover2.TabStop = false;
@@ -386,9 +386,9 @@ namespace PheonixClient
             // featureddescription1
             // 
             this.featureddescription1.ForeColor = System.Drawing.Color.White;
-            this.featureddescription1.Location = new System.Drawing.Point(224, 43);
+            this.featureddescription1.Location = new System.Drawing.Point(190, 43);
             this.featureddescription1.Name = "featureddescription1";
-            this.featureddescription1.Size = new System.Drawing.Size(298, 219);
+            this.featureddescription1.Size = new System.Drawing.Size(321, 219);
             this.featureddescription1.TabIndex = 3;
             this.featureddescription1.Text = "Description ------------------------------------------------\r\n";
             // 
@@ -397,7 +397,7 @@ namespace PheonixClient
             this.featuredprice1.AutoSize = true;
             this.featuredprice1.Font = new System.Drawing.Font("Apercu Mono", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.featuredprice1.ForeColor = System.Drawing.Color.Green;
-            this.featuredprice1.Location = new System.Drawing.Point(224, 29);
+            this.featuredprice1.Location = new System.Drawing.Point(190, 29);
             this.featuredprice1.Name = "featuredprice1";
             this.featuredprice1.Size = new System.Drawing.Size(35, 14);
             this.featuredprice1.TabIndex = 2;
@@ -407,7 +407,7 @@ namespace PheonixClient
             // 
             this.featuredname1.AutoSize = true;
             this.featuredname1.ForeColor = System.Drawing.Color.White;
-            this.featuredname1.Location = new System.Drawing.Point(224, 13);
+            this.featuredname1.Location = new System.Drawing.Point(190, 13);
             this.featuredname1.Name = "featuredname1";
             this.featuredname1.Size = new System.Drawing.Size(50, 16);
             this.featuredname1.TabIndex = 1;
@@ -419,7 +419,7 @@ namespace PheonixClient
             this.featuredcover1.Image = global::PheonixClient.Properties.Resources.Icon;
             this.featuredcover1.Location = new System.Drawing.Point(13, 13);
             this.featuredcover1.Name = "featuredcover1";
-            this.featuredcover1.Size = new System.Drawing.Size(205, 238);
+            this.featuredcover1.Size = new System.Drawing.Size(171, 238);
             this.featuredcover1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.featuredcover1.TabIndex = 0;
             this.featuredcover1.TabStop = false;
