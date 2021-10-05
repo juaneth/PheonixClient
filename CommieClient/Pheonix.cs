@@ -16,6 +16,8 @@ namespace PheonixClient
 
         private void cmclient_Load(object sender, EventArgs e)
         {
+            var config = File.ReadAllLines("config.grosh");
+
             //Install fonts
             try
             {
@@ -35,13 +37,37 @@ namespace PheonixClient
             {
 
             }
+
+            CheckUpdate();
+
+            //Load repo with default repo set in config and page size from repo
+            LoadFromRepo(0, 0, config[2], Int32.Parse(config[6]));
         }
+
+        private void CheckUpdate()
+        {
+            //Checks if theres any changes within the version file hosted on my server
+        }
+
+        private void LoadFromRepo(int type, int offset, string RepoLocation, int pagelength)
+        {
+            if(type == 0)
+            {
+                var repocontent = File.ReadAllLines(RepoLocation);
+                var PageCount = repocontent.Length / pagelength;
+
+                
+            }
+            else if(type == 1)
+            {
+
+            }
+        }
+
 
         //Rounded panels stuff, idk if I want to even use it ->
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
-            var cfg = File.ReadAllLines("config.commie");
-
              Graphics v = e.Graphics;
              DrawRoundRect(v, Pens.WhiteSmoke, e.ClipRectangle.Left, e.ClipRectangle.Top, e.ClipRectangle.Width - 1, e.ClipRectangle.Height - 1, 5);
              base.OnPaint(e);
@@ -49,9 +75,9 @@ namespace PheonixClient
 
         public void DrawRoundRect(Graphics g, Pen p, float X, float Y, float width, float height, float radius)
         {
-            var cfg = File.ReadAllLines("config.commie");
+            var cfg = File.ReadAllLines("config.grosh");
 
-            if (cfg[6] == "lowsight")
+            if (cfg[4] == "lowsight")
             {
                 GraphicsPath gp = new GraphicsPath();
                 //Upper-right arc:
