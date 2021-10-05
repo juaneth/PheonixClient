@@ -1,7 +1,8 @@
 # PheonixClient
 ## idk
 
-![image](https://user-images.githubusercontent.com/68202118/133503127-a7a7acb8-38f5-409e-a402-fdb42a355fc3.png)
+![image](https://user-images.githubusercontent.com/68202118/136098782-1af6d2b9-d159-4696-a4b6-ed5ab38c9b25.png)
+
 
 (temporary ui, subject to change. Wine not shown here with new UI)
 
