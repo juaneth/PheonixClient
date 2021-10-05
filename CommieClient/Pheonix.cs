@@ -35,10 +35,12 @@ namespace PheonixClient
             }
             catch
             {
+                //log to file using log method that fonts already installed
 
             }
 
             CheckUpdate();
+            DebugLog("Error", "Test Error");
 
             //Load repo with default repo set in config and page size from repo
             LoadFromRepo(0, 0, config[2], Int32.Parse(config[6]));
@@ -47,6 +49,28 @@ namespace PheonixClient
         private void CheckUpdate()
         {
             //Checks if theres any changes within the version file hosted on my server
+        }
+
+        private void DebugLog(string type, string content)
+        {
+            Console.WriteLine(type + ": " + content);
+
+            if (!Directory.Exists("/Logs"))
+            {
+                Directory.CreateDirectory("/Logs");
+                Application.Restart();
+                Environment.Exit(0);
+            }
+            if (!File.Exists("/Logs/current.log"))
+            {
+                File.Create("/Logs/current.log");
+                Application.Restart();
+                Environment.Exit(0);
+            }
+
+
+            var prevlog = File.ReadLines("/Logs/current.log");
+            File.WriteAllText("/Logs/current.log", prevlog + "\n" + type + ": " + content);
         }
 
         private void LoadFromRepo(int type, int offset, string RepoLocation, int pagelength)
