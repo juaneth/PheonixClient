@@ -39,6 +39,17 @@ namespace PheonixClient
 
             }
 
+            if (!Directory.Exists("/Logs"))
+            {
+                Directory.CreateDirectory("/Logs");
+            }
+            if (!File.Exists("/Logs/current.log"))
+            {
+                File.Create("/Logs/current.log");
+            }
+
+            Application.Restart();
+
             CheckUpdate();
             DebugLog("Error", "Test Error");
 
@@ -77,10 +88,14 @@ namespace PheonixClient
         {
             if(type == 0)
             {
-                var repocontent = File.ReadAllLines(RepoLocation);
-                var PageCount = repocontent.Length / pagelength;
-
-                
+                //Get content, amount of games and amount of pages.
+                string repocontent = File.ReadAllText(RepoLocation);
+                string[] gameindex = repocontent.Split("<>");
+                var gamecount = repocontent.Length / 12;
+                double pagecountraw = gamecount / pagelength;
+                //Round up to the integer above and convert it to an integer
+                Math.Ceiling(pagecountraw);
+                int pagecount = Convert.ToInt32(pagecountraw);
             }
             else if(type == 1)
             {
@@ -89,7 +104,7 @@ namespace PheonixClient
         }
 
 
-        //Rounded panels stuff, idk if I want to even use it ->
+        //Low Sight mode panels ->
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
              Graphics v = e.Graphics;
